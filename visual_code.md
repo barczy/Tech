@@ -11,4 +11,4 @@ Markdown
 	Pl. Readme.md
 		Van hozzá preview lehetőség
 
-Command palette: Snippets    vagy ctrl-space   - előre definiált minta kód beszúrására<img width="589" height="270" alt="image" src="https://github.com/user-attachments/assets/6b51c301-876a-4d6f-a134-b995e5bdd56d" />
+Command palette: Snippets    vagy ctrl-space   - előre definiált minta kód beszúrására
