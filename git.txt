@@ -1,0 +1,2 @@
+Törli a lokális függőben lévő módosításokat
+  git checkout -t -f origin/feature/main-docker 
