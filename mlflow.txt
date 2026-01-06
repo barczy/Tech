@@ -1,0 +1,32 @@
+MLFlow
+------
+
+Lifecycle of DS Projects:
+- Data Preparation (Data Engineer)
+- Exploratory Data Analyses (Data Scientist)
+- Feature engineering (Data Scientist)
+- Model training (Data Scientist)
+- Model validation (Data Scientist, ML Engineer)
+- Deployment (ML Engineer)
+- Monitoring (ML Engineer)
+
+MLFlow:
+- For datascientists
+	- experiment tracking and hypotheis testing
+	- code structuring (pipeline creation)
+	- model packaging, dependency management
+	- evaluating hyperparameter tuning
+	- compare result of model retrieving over time 
+- For MLops
+	- Manage the lifecycle of trained models
+	- Deploy models securily to the production environment
+	- Manage dependencies
+- For Prompt Engineering useres
+	- Evaluate and experiment with larg language model
+	- create custom propmpts and experiment
+	- deciding on the best base model
+- Usescases:
+	- Experiment tracking
+	- Model selection and deployment
+	- Model performance monitoring
+	- Collaborative project

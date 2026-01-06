@@ -30,5 +30,16 @@ Visszafele
 - push
 	git push https://<PAT Token>@github.com/barczy/Tech.git
 
+
+Branch kezelés
+	git branch new-name
+		új ág létrehozása
+	git checkout <név>
+		új ág kivétele
+	git merge <branch>
+		merge
+	git log
+
+
 Törli a lokális függőben lévő módosításokat
   git checkout -t -f origin/feature/main-docker 
