@@ -7,6 +7,9 @@ Git, GitHUB
 - clone lokál gépre
   	git clone https://github.com/barczy/Tech.git
 
+Visszafele
+- Mire rakok commitot
+	git add git.txt
 - commit
 	git commit -m "first commit"
 - push
