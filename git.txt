@@ -2,14 +2,29 @@ Git, GitHUB
 -----------
 
 - Repositories
+- staging environment (lokál branchek)
+- branch
+
 - Kliens: git cli, git-scm.com
 
 - clone lokál gépre
   	git clone https://github.com/barczy/Tech.git
 
+
+Lokál configurálás
+- mail, user név ellenőrzése (user.name user.email)
+	git config --global user.name
+
+Státusz
+	git status
+	git branch
+	git remote -v
+		Hogyan van összekapcsolva
+
 Visszafele
-- Mire rakok commitot
+- Mire rakok commitot, mit követek
 	git add git.txt
+	git add .
 - commit
 	git commit -m "first commit"
 - push
@@ -17,5 +32,3 @@ Visszafele
 
 Törli a lokális függőben lévő módosításokat
   git checkout -t -f origin/feature/main-docker 
-
-git commit
