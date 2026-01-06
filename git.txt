@@ -4,8 +4,13 @@ Git, GitHUB
 - Repositories
 - Kliens: git cli, git-scm.com
 
-- clone
-  git clone https://github.com/barczy/Tech.git
+- clone lokál gépre
+  	git clone https://github.com/barczy/Tech.git
+
+- commit
+	git commit -m "first commit"
+- push
+	git push https://<PAT Token>@github.com/barczy/Tech.git
 
 Törli a lokális függőben lévő módosításokat
   git checkout -t -f origin/feature/main-docker 
