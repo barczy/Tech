@@ -1,9 +1,16 @@
 Git, GitHUB
 -----------
 
-- Repositories
-- staging environment (lokál branchek)
-- branch
+Github
+  Kliensből jelszó helyett PAT-ot kell használni
+	1) Create a PAT on GitHub
+		1. Go to GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic).
+		2. Click Generate new token (classic).
+
+Git témák
+	- Repositories
+	- staging environment (lokál branchek)
+	- branch
 
 - Kliens: git cli, git-scm.com
 
