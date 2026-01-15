@@ -30,3 +30,15 @@ MLFlow:
 	- Model selection and deployment
 	- Model performance monitoring
 	- Collaborative project
+
+
+Experiments
+	Modellek futtatása különböző paraméterekkel
+		Előállítja a telepítendő model fájlt is (pkl)
+		Tárolja a paramétereket, eredményeket, állítható mit logoljon ki
+		Szerveren hoz létre könyvtárakat, fájlrendszerben Tárolja
+		Mlflow UI teszi weben olvasmányossá
+
+Model registry
+	Cetnralized model store
+	Mlflow UI / Models
