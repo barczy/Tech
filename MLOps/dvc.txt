@@ -1,0 +1,9 @@
+Data Version Control (DVC)
+    https://dvc.org/
+	Verziókezelés mint a kódnál. Gitre épít, azon belül lesz, előtte a könyvbárat be kell hozni git-re.
+	Ugyanazon parancsok, csak dvc-re
+	Requirements.txt
+		dvc
+		dvc init
+		dvc add data/data.txt
+            ezzel nem a git, hanem a dvc fogja kezelni. git-ben ignorra kerül, de létrejön egy data.txt.dvc fájl. És egy .dvc/ könyvtárban fogja tárolni, ami GIT-tel lesz követve.
