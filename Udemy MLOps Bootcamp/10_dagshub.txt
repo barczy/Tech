@@ -1,0 +1,12 @@
+Dagshub
+-------
+
+dagshub.com
+
+Kiegészíti az MLFlow-t remote model repository, remote experiment result. 
+MLFlow ide teszi le az eredményeket.
+Távolról elérhető repository gyűjtemény
+Lehet tárolni és verziókövetni :
+    - adat (DVC) 
+    - kódot (GITet használ) 
+    - experiment eredményeket is.
