@@ -10,3 +10,5 @@ Lehet tárolni és verziókövetni :
     - adat (DVC) 
     - kódot (GITet használ) 
     - experiment eredményeket is.
+
+Tud DVC pipeline-t futtatni, megjeleníteni

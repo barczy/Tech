@@ -6,4 +6,11 @@ Data Version Control (DVC)
 		dvc
 		dvc init
 		dvc add data/data.txt
-            ezzel nem a git, hanem a dvc fogja kezelni. git-ben ignorra kerül, de létrejön egy data.txt.dvc fájl. És egy .dvc/ könyvtárban fogja tárolni, ami GIT-tel lesz követve.
+            ezzel nem a git, hanem a dvc fogja kezelni. git-ben ignorra kerül, de létrejön egy data.txt.dvc fájl. 
+			És egy .dvc/ könyvtárban fogja tárolni, ami GIT-tel lesz követve.
+
+DVC Pipeline
+	Lehet pipelinet készíteni.
+	Adadtfeltöltés-Preprocess-Training-Kiértékelést- stb.
+		dvc stage add ...
+		Mind egy-egy stage. Lesz erről egy dvc.yaml leíró.
