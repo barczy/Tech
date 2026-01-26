@@ -1,0 +1,3 @@
+MLFlow használata AWS környezetben (AWS EC2 Instance)
+
+    Ugyanaz mint eddig, csak a remote_servel_rul-be fogok AWS elérését configolni.
