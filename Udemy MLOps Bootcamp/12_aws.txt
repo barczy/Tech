@@ -1,3 +1,12 @@
 MLFlow használata AWS környezetben (AWS EC2 Instance)
 
     Ugyanaz mint eddig, csak a remote_servel_rul-be fogok AWS elérését configolni.
+
+    AWS beléps
+    Kell egy technikai usert csinálni (IAM user admin joggal)
+    Kell hozzá letölteni AWC CLI-t (kliens)
+    Amazon S3 Bucket (object storage service, Amazon tárhely)
+    Kell kérni egy virtuális gépet (linux) - felparaméterezni (portokat, stb)
+    A virtuális gépre telepítünk mflow, python, stb...
+    MLFlow ott fog futni, mint egy MLFlow szerver S3-as tárhelybe teszi az adatait
+    Amazonon futó URL-t használom fel, lokál példányban futó Pythonban megadom az elérését
